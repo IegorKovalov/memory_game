@@ -1,0 +1,13 @@
+.expense-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.expense-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
